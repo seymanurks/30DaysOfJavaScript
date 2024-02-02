@@ -1,5 +1,0 @@
-console.log(typeof "Seyma")
-console.log(typeof 22)
-console.log(typeof true)
-console.log(typeof null)
-console.log(typeof undefined)
