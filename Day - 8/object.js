@@ -11,7 +11,10 @@ const person = {
       'Swift',
       'React Native',
     ],
-    'phone number': '555 666 77 88'
+    'phone number': '555 666 77 88',
+    fullName: function() {
+        return `${this.firstName} ${this.lastName}`
+      }
   }
 
   let bilinenDiller = 'skills'
@@ -20,3 +23,7 @@ const person = {
   console.log(person['phone number'])
 
   console.log (person[bilinenDiller])
+
+  console.log(person.fullName())
+
+
