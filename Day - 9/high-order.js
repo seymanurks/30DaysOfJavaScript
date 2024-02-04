@@ -18,8 +18,8 @@ const callback = (n) => n ** 2
 
   console.log(a(5)(10)(20))
 
-  const numbers = [1, 3, 5, 7, 9]
+  /*const numbers = [1, 3, 5, 7, 9]
   let sum = 0
   let calculate = number => sum += number
   numbers.forEach(calculate)
-  console.log(sum)
+  console.log(sum)*/
