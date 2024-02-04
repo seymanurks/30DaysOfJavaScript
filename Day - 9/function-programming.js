@@ -23,3 +23,6 @@ console.log(areAllStr)
 
 const str = names.some((name) => typeof name === 'number') // yalnızca biri string türündeyse true döndürür 
 console.log(str)
+
+console.log(numbers.find(number => number > 5)) // find
+console.log(numbers.findIndex(number => number > 5)) //findIndex
