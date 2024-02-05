@@ -34,3 +34,15 @@ const users = [
   console.table(users)
 
 
+  console.time("calculate 1 m array")
+  new Array(10e5).fill().map((value, index) => index)
+  console.timeEnd("calculate 1 m array")  //yaklaşık olarak 0.01 s
+
+  const test = () => {
+    console.count("test metodu çağırıldı")
+  }
+  test()
+  test()
+  test()
+
+  //console.clear()
