@@ -8,7 +8,7 @@ for (let index = 0; index < h1.length; index++) {
 
 [...h1].forEach(element => console.log(element))*/
 
-const className = document.getElementsByClassName("title-1")
+/*const className = document.getElementsByClassName("title-1")
 console.log(className)
 
 const id = document.getElementById("title-3")
@@ -17,5 +17,8 @@ console.log(id )
 
 let firstTitle = document.querySelectorAll('.title-1') 
 
-firstTitle.forEach(element => console.log(element))
+firstTitle.forEach(element => console.log(element))*/
 
+const baslik = document.getElementById("title-3")
+baslik.textContent = "İçerik değiştirildi"
+baslik.innerHTML = "<u>Yeni içerik</u>"
